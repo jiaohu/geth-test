@@ -1,0 +1,10 @@
+2023/08/22 06:56:58 maxprocs: Leaving GOMAXPROCS=4: CPU quota undefined
+INFO [08-22|06:56:58.911] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [08-22|06:56:58.912] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [08-22|06:56:58.917] Set global gas cap                       cap=50,000,000
+INFO [08-22|06:56:58.917] Initializing the KZG library             backend=gokzg
+INFO [08-22|06:56:58.977] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [08-22|06:56:58.978] Using pebble as the backing database 
+INFO [08-22|06:56:58.978] Allocated cache and file handles         database=/home/ubuntu/geth-shell/gethdata/geth/chaindata cache=512.00MiB handles=524,288
+INFO [08-22|06:56:58.989] Opened ancient database                  database=/home/ubuntu/geth-shell/gethdata/geth/chaindata/ancient/chain readonly=false
+Fatal: Failed to register the Ethereum service: ethash is only supported as a historical component of already merged networks

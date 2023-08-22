@@ -1,0 +1,126 @@
+2023/08/22 06:26:47 maxprocs: Leaving GOMAXPROCS=4: CPU quota undefined
+INFO [08-22|06:26:47.332] "Starting Geth on Görli testnet..." 
+INFO [08-22|06:26:47.337] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [08-22|06:26:47.339] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [08-22|06:26:47.342] Set global gas cap                       cap=50,000,000
+INFO [08-22|06:26:47.343] Initializing the KZG library             backend=gokzg
+INFO [08-22|06:26:47.403] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [08-22|06:26:47.404] Defaulting to pebble as the backing database 
+INFO [08-22|06:26:47.404] Allocated cache and file handles         database=/home/ubuntu/.ethereum/goerli/geth/chaindata cache=512.00MiB handles=524,288
+INFO [08-22|06:26:47.435] Opened ancient database                  database=/home/ubuntu/.ethereum/goerli/geth/chaindata/ancient/chain readonly=false
+INFO [08-22|06:26:47.435] Initialising Ethereum protocol           network=1337 dbversion=<nil>
+INFO [08-22|06:26:47.437] Writing custom genesis block 
+INFO [08-22|06:26:47.453] Persisted trie from memory database      nodes=361 size=51.44KiB time=4.557758ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=0 livesize=0.00B
+INFO [08-22|06:26:47.473]  
+INFO [08-22|06:26:47.473] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [08-22|06:26:47.473] Chain ID:  5 (goerli) 
+INFO [08-22|06:26:47.473] Consensus: Beacon (proof-of-stake), merged from Clique (proof-of-authority) 
+INFO [08-22|06:26:47.473]  
+INFO [08-22|06:26:47.473] Pre-Merge hard forks (block based): 
+INFO [08-22|06:26:47.473]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [08-22|06:26:47.473]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [08-22|06:26:47.473]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [08-22|06:26:47.473]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [08-22|06:26:47.473]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [08-22|06:26:47.473]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [08-22|06:26:47.473]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [08-22|06:26:47.473]  - Istanbul:                    #1561651  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [08-22|06:26:47.473]  - Berlin:                      #4460644  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [08-22|06:26:47.473]  - London:                      #5062605  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [08-22|06:26:47.473]  
+INFO [08-22|06:26:47.473] Merge configured: 
+INFO [08-22|06:26:47.473]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [08-22|06:26:47.473]  - Network known to be merged: true 
+INFO [08-22|06:26:47.473]  - Total terminal difficulty:  10790000 
+INFO [08-22|06:26:47.473]  
+INFO [08-22|06:26:47.473] Post-Merge hard forks (timestamp based): 
+INFO [08-22|06:26:47.473]  - Shanghai:                    @1678832736 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md) 
+INFO [08-22|06:26:47.473]  
+INFO [08-22|06:26:47.473] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [08-22|06:26:47.473]  
+INFO [08-22|06:26:47.473] Loaded most recent local block           number=0 hash=bf7e33..b88c1a td=1 age=4y7mo2w
+WARN [08-22|06:26:47.473] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [08-22|06:26:47.477] Rebuilding state snapshot 
+INFO [08-22|06:26:47.479] Resuming state snapshot generation       root=5d6cde..8b3008 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=2.196ms
+INFO [08-22|06:26:47.479] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-22|06:26:47.479] Chain post-merge, sync via beacon client 
+INFO [08-22|06:26:47.479] Gasprice oracle is ignoring threshold set threshold=2
+WARN [08-22|06:26:47.479] Error reading unclean shutdown markers   error="pebble: not found"
+WARN [08-22|06:26:47.482] Engine API enabled                       protocol=eth
+INFO [08-22|06:26:47.482] Starting peer-to-peer node               instance=Geth/v1.12.1-unstable-a585418b-20230728/linux-amd64/go1.20.7
+INFO [08-22|06:26:47.484] Generated state snapshot                 accounts=260 slots=0 storage=9.69KiB dangling=0 elapsed=7.013ms
+INFO [08-22|06:26:47.484] Stored checkpoint snapshot to disk       number=0 hash=bf7e33..b88c1a
+INFO [08-22|06:26:47.495] New local node record                    seq=1,692,685,607,493 id=ed1ab2a7a655efaa ip=127.0.0.1 udp=30303 tcp=30303
+INFO [08-22|06:26:47.495] Started P2P networking                   self=enode://ad27b7a107c9b546ca4109448dcb1debb82308a73c2fe133ef8bbbdcebf88b2d08d23c61dea9d8182f036fd2169da027dead49f5226d747423ac684ee9a1c7d7@127.0.0.1:30303
+INFO [08-22|06:26:47.496] IPC endpoint opened                      url=/home/ubuntu/.ethereum/goerli/geth.ipc
+INFO [08-22|06:26:47.497] Generated JWT secret                     path=/home/ubuntu/.ethereum/goerli/geth/jwtsecret
+INFO [08-22|06:26:47.497] HTTP server started                      endpoint=[::]:8545 auth=false prefix= cors=* vhosts=localhost
+INFO [08-22|06:26:47.497] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [08-22|06:26:47.497] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [08-22|06:26:52.854] New local node record                    seq=1,692,685,607,494 id=ed1ab2a7a655efaa ip=35.160.16.148 udp=30303 tcp=30303
+INFO [08-22|06:26:59.038] Looking for peers                        peercount=0 tried=18 static=0
+INFO [08-22|06:27:09.197] Looking for peers                        peercount=0 tried=34 static=0
+INFO [08-22|06:27:19.530] Looking for peers                        peercount=0 tried=41 static=0
+WARN [08-22|06:27:22.484] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [08-22|06:27:29.533] Looking for peers                        peercount=0 tried=32 static=0
+INFO [08-22|06:27:39.864] Looking for peers                        peercount=0 tried=33 static=0
+INFO [08-22|06:27:49.864] Looking for peers                        peercount=0 tried=38 static=0
+INFO [08-22|06:27:59.987] Looking for peers                        peercount=0 tried=36 static=0
+INFO [08-22|06:28:10.187] Looking for peers                        peercount=0 tried=38 static=0
+INFO [08-22|06:28:20.198] Looking for peers                        peercount=0 tried=38 static=0
+INFO [08-22|06:28:30.198] Looking for peers                        peercount=0 tried=41 static=0
+INFO [08-22|06:28:40.322] Looking for peers                        peercount=0 tried=45 static=0
+INFO [08-22|06:28:50.530] Looking for peers                        peercount=0 tried=33 static=0
+INFO [08-22|06:29:00.531] Looking for peers                        peercount=0 tried=41 static=0
+INFO [08-22|06:29:10.548] Looking for peers                        peercount=1 tried=43 static=0
+INFO [08-22|06:29:20.861] Looking for peers                        peercount=0 tried=42 static=0
+INFO [08-22|06:29:30.862] Looking for peers                        peercount=0 tried=31 static=0
+INFO [08-22|06:29:40.864] Looking for peers                        peercount=0 tried=33 static=0
+INFO [08-22|06:29:51.016] Looking for peers                        peercount=0 tried=45 static=0
+INFO [08-22|06:30:01.049] Looking for peers                        peercount=0 tried=46 static=0
+INFO [08-22|06:30:11.057] Looking for peers                        peercount=0 tried=43 static=0
+INFO [08-22|06:30:21.380] Looking for peers                        peercount=0 tried=35 static=0
+INFO [08-22|06:30:31.383] Looking for peers                        peercount=0 tried=39 static=0
+INFO [08-22|06:30:41.386] Looking for peers                        peercount=0 tried=41 static=0
+WARN [08-22|06:30:48.709] Snapshot extension registration failed   peer=117d43f9 err="peer connected on snap without compatible eth support"
+INFO [08-22|06:30:51.503] Looking for peers                        peercount=0 tried=38 static=0
+INFO [08-22|06:31:01.691] Looking for peers                        peercount=1 tried=40 static=0
+INFO [08-22|06:31:11.713] Looking for peers                        peercount=0 tried=44 static=0
+WARN [08-22|06:31:15.381] Served eth_coinbase                      conn=127.0.0.1:42438 reqid=3 duration="32.823µs" err="etherbase must be explicitly specified"
+INFO [08-22|06:31:21.713] Looking for peers                        peercount=0 tried=42 static=0
+INFO [08-22|06:31:31.722] Looking for peers                        peercount=0 tried=42 static=0
+INFO [08-22|06:31:41.742] Looking for peers                        peercount=0 tried=41 static=0
+INFO [08-22|06:31:52.031] Looking for peers                        peercount=0 tried=41 static=0
+INFO [08-22|06:32:02.046] Looking for peers                        peercount=0 tried=42 static=0
+INFO [08-22|06:32:12.050] Looking for peers                        peercount=0 tried=40 static=0
+INFO [08-22|06:32:22.380] Looking for peers                        peercount=0 tried=42 static=0
+WARN [08-22|06:32:22.519] Post-merge network, but no beacon client seen. Please launch one to follow the chain! 
+INFO [08-22|06:32:32.380] Looking for peers                        peercount=0 tried=38 static=0
+INFO [08-22|06:32:42.380] Looking for peers                        peercount=0 tried=40 static=0
+INFO [08-22|06:32:52.713] Looking for peers                        peercount=0 tried=27 static=0
+INFO [08-22|06:33:03.046] Looking for peers                        peercount=0 tried=33 static=0
+INFO [08-22|06:33:13.047] Looking for peers                        peercount=0 tried=35 static=0
+INFO [08-22|06:33:23.047] Looking for peers                        peercount=0 tried=29 static=0
+INFO [08-22|06:33:33.380] Looking for peers                        peercount=0 tried=27 static=0
+INFO [08-22|06:33:43.381] Looking for peers                        peercount=0 tried=35 static=0
+INFO [08-22|06:33:53.382] Looking for peers                        peercount=0 tried=47 static=0
+INFO [08-22|06:34:04.048] Looking for peers                        peercount=0 tried=37 static=0
+INFO [08-22|06:34:14.714] Looking for peers                        peercount=0 tried=36 static=0
+INFO [08-22|06:34:24.715] Looking for peers                        peercount=0 tried=40 static=0
+INFO [08-22|06:34:34.715] Looking for peers                        peercount=0 tried=35 static=0
+INFO [08-22|06:34:44.715] Looking for peers                        peercount=0 tried=33 static=0
+INFO [08-22|06:34:54.716] Looking for peers                        peercount=0 tried=38 static=0
+INFO [08-22|06:35:04.716] Looking for peers                        peercount=0 tried=44 static=0
+INFO [08-22|06:35:14.717] Looking for peers                        peercount=0 tried=35 static=0
+INFO [08-22|06:35:24.734] Looking for peers                        peercount=0 tried=43 static=0
+WARN [08-22|06:35:31.708] Snapshot extension registration failed   peer=c6878c1a err="peer connected on snap without compatible eth support"
+INFO [08-22|06:35:35.050] Looking for peers                        peercount=0 tried=39 static=0
+INFO [08-22|06:35:43.729] Got interrupt, shutting down... 
+INFO [08-22|06:35:43.729] HTTP server stopped                      endpoint=[::]:8545
+INFO [08-22|06:35:43.729] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [08-22|06:35:43.729] IPC endpoint closed                      url=/home/ubuntu/.ethereum/goerli/geth.ipc
+INFO [08-22|06:35:43.729] Ethereum protocol stopped 
+INFO [08-22|06:35:43.729] Transaction pool stopped 
+INFO [08-22|06:35:43.734] Writing snapshot state to disk           root=5d6cde..8b3008
+INFO [08-22|06:35:43.734] Persisted trie from memory database      nodes=0   size=0.00B    time="4.508µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=0 livesize=0.00B
+INFO [08-22|06:35:43.734] Blockchain stopped 

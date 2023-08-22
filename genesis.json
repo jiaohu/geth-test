@@ -20,6 +20,9 @@
   "gasLimit": "0xffffffff",
   "difficulty": "0x1",
   "alloc": {
+	  "0x318838c246F210bd13495D4864D9F9bF2179678e": {
+		  "balance": "0xffffffffffffffffffff"
+    },
     "0c1efcca2bcb65a532274f3ef24c044ef4ab6d73": {
       "balance": "0xffffffffffffffffffff"
     },

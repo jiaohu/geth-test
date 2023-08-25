@@ -1,4 +1,4 @@
-git clone  https://github.com/HyprNetwork/go-ethereum.git
+git clone -b update_crypto  https://github.com/HyprNetwork/go-ethereum.git
 cd go-ethereum
 make geth
 cp build/bin/geth ../geth

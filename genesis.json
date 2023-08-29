@@ -19,11 +19,8 @@
   "gasLimit": "0x2fefd8",
   "difficulty": "0x1",
   "alloc": {
-    "0x318838c246F210bd13495D4864D9F9bF2179678e": {
-	"balance": "0xffffffffffffffffffff"
-    },
-    "0x1c07AE09Fb17578f066Db8f8756C240f9b318e13": {
-    	"balance": "0xffffffffffffffffffff"
+    "0xE6C23e8C42221d8f86C694a71c30c211c3fbDbEf": {
+      "balance": "100000000000000000000"
     }
   }
 }

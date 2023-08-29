@@ -1,1 +1,4 @@
 gethdata/*
+geth
+target/release/*
+geth.log

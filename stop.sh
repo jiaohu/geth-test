@@ -1,1 +1,2 @@
-pkill -HUP  geth
+# pkill -HUP  geth
+pkill  geth

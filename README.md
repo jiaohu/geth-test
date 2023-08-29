@@ -5,5 +5,5 @@ scripts for deploy private network.
 ```shell
 ./prepare.sh
 ./init.sh
-./start.sh
+./start.sh [端口号]
 ```

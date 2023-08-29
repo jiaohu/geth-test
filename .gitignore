@@ -2,3 +2,4 @@ gethdata/*
 geth
 target/release/*
 geth.log
+.DS_Store

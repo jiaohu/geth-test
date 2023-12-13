@@ -7,3 +7,6 @@ scripts for deploy private network.
 ./init.sh
 ./start.sh [端口号]
 ```
+
+## geth
+[usage](https://dandelioncloud.cn/article/details/1527961420843204609)
